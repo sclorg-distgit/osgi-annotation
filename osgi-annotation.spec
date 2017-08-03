@@ -3,7 +3,7 @@
 
 Name:    %{?scl_prefix}osgi-annotation
 Version: 6.0.0
-Release: 5.1%{?dist}
+Release: 5.2%{?dist}
 Summary: Annotations for use in compiling OSGi bundles
 
 License: ASL 2.0
@@ -72,6 +72,9 @@ cp -p %{SOURCE1} pom.xml
 %doc LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 6.0.0-5.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 6.0.0-5.1
 - Automated package import and SCL-ization
 
